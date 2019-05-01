@@ -1,0 +1,19 @@
+				<!-- /.sidebar-collapse @foreach($products as $pro)
+				<tbody>
+                <tr>
+				  <td>{{$pro['id']}}</td>
+				  <td>{{$pro['productname']}}</td>
+				  <td>{{$pro['catid']}}</td>
+				  <td>{{$pro['price']}}</td>
+				  <td>{{$pro['quantity']}}</td>
+				  <td>{{$pro['shortdescription']}}</td>
+				  <td>{{$pro['longdescription']}}</td>
+				  <td>{{$pro['file']}}</td>
+				  <td>{{$pro['publicationstatus']}}</td>
+				  <td>
+					<a href="{{route('admin.productedit',$pro['id'])}}"><font color="blue">Edit</a> |
+					<a href="{{route('admin.productdelete',$pro['id'])}}"><font color="red">Delete</a>
+				  </td>
+                </tr>
+				</tbody>
+			@endforeach-->
